@@ -83,7 +83,6 @@ body{
 }
 
 #store{
-	padding:20px;
 	width: 97%;
 	display: flex;
 	flex-direction: column;
@@ -98,6 +97,7 @@ body{
 .prod{
 	height: 8cm;
 	width: auto;
+	margin: 50px;
 }
 
 
