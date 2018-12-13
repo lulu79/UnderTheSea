@@ -1,0 +1,262 @@
+
+header{
+	padding: 10px;
+
+}
+
+#logo{
+	width: 10%;
+	height: 10%;
+	border: 2px white solid;
+	padding: 5px;
+}
+
+#nom{
+	width: 800px;
+	height: auto;
+	position: absolute;
+	top: 40px;
+	left: 500px;
+}
+
+a{
+	color:#071e3d;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #278ea5;
+}
+
+p{
+	color: white;
+	font-family: optima, arial, helvetica, sans-serif;
+}
+
+
+h1{
+	color: white;
+	font-family: optima, arial, helvetica, sans-serif;
+}
+
+
+#nav
+{
+	background-color: white;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#nav li
+{
+	display: inline;
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+}
+
+body
+{
+	font-family: arial, helvetica, sans-serif;
+	background-image: url(images/fond.jpg);
+}
+
+#presentation
+{
+	padding: 10px;
+	text-align: center;
+	border: 1px white solid;
+	margin-top: 20px;
+}
+
+.demo{
+	display: flex;
+	flex-direction: row;
+	background-image: url("images/fond.jpg");
+}
+
+#pitch{
+	padding: 30px;
+	padding-top: 55px;
+}
+
+.application
+{
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	width: 700px;
+	padding: 10px;
+	padding-top: 50px;
+	font-family: optima, arial,verdana, sans-serif;
+}
+
+.explication{
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#trash{
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: 150px;
+	margin: 30px;
+	border: 2px white dashed;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+#hiking{
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: 150px;
+	margin: 30px;
+	border: 2px white dashed;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+#nature{
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: 150px;
+	margin: 30px;
+	border: 2px white dashed;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+
+.action
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#don
+{
+	height: 300px;
+	width: 600px;
+	padding: 20px;
+	border: 2px white dashed;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#don li
+{
+	display: inline;
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#aide{
+	padding-top: 20px;
+}
+
+
+#facebook
+{
+	height: 300px;
+	width: 600px;
+	padding: 20px;
+	padding-left: 70px;
+	border: 2px white dashed;
+	text-align: center;
+}
+
+#collecte
+{
+	width: 97%;
+	height: 150px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+footer
+{
+	background-color: #e0e0ec;
+	padding: 20px;
+	height: 200px;
+	width: 97%;
+}
+
+#contact{
+	width: 400px;
+	height: 100px;
+	border-right: 2px black solid;
+}
+
+#reseaux
+{
+	background-color: #e0e0ec;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+#reseaux li
+{
+	display: inline;
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+}
+
+
+
+@media screen and (max-width: 1280px)
+{
+   
+   .explication{
+ 	display: none;
+   }
+
+   .action{
+   	flex-direction: column;
+   	margin: auto;
+   	height: 100px;
+   	width: auto;
+   }
+
+   #facebook{
+   	display: none;
+   }
+
+   #don{
+   	margin: auto;
+   	height: 200px;
+   }
+
+
+   #collecte{
+   display: none;
+   }
+
+   footer{
+   	height: 200px;
+   	width: auto;
+   }
+
+   #reseau li{
+   	margin: auto;
+
+   }
+
+   #contact{
+   	display: none;
+  
+   }
+
+}

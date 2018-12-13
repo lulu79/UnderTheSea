@@ -1,0 +1,276 @@
+header
+{
+	padding: 10px;
+}
+
+#logo
+{
+	width: 10%;
+	height: 10%;
+	border: 2px white solid;
+	padding: 5px;
+}
+
+#nom{
+	width: 800px;
+	height: auto;
+	position: absolute;
+	top: 40px;
+	left: 500px;
+}
+
+a{
+	color:#071e3d;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #278ea5;
+}
+
+p
+{
+	color: white;
+	font-family: arial, helvetica, sans-serif;
+}
+
+
+h1
+{
+	color: white;
+	font-family: arial, helvetica, sans-serif;
+	padding-left: 40%
+}
+
+h2{
+	color: white;
+	text-align: center;
+}
+
+h3{
+	color: white;
+}
+
+h4{
+	color: white;
+}
+
+
+body
+{
+	font-family: arial, helvetica, sans-serif;
+	background-image: url(images/fond.jpg);
+}
+
+#introduction 
+{
+	text-align: justify;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#intro{
+	text-align: center;
+}
+
+#parcours1
+{
+	text-align: justify;
+	height: 300px;
+	padding-top: 3%;
+	padding-left: 10px;
+	padding-right: 30%;
+	height: 350px;
+	margin-top: 20px;
+	border: 2px white dashed;
+}
+
+#geocatching1
+{
+	height: 2cm;
+	width: auto;
+	position: absolute;
+	right: 45%;
+	top: 15.5cm;
+}
+
+#sormiou1
+{
+	float:  left;
+	height: 4cm;
+	width: 5.5cm;
+	position: absolute;
+    top: 15cm;
+    right: 6cm;
+}
+
+#sormiou2
+{
+	float:  left;
+	height: 4cm;
+	width: 5.5cm;
+	position: absolute;
+    top: 15cm;
+    right: 0.3cm;
+}
+
+#sormiou3
+{
+	float:  left;
+	height: 4cm;
+	width: 5.5cm;
+	position: absolute;
+    top: 20cm;
+    right: 3cm;
+}
+
+#parcours2
+{
+	text-align: justify;
+	padding-top: 4%;
+	padding-right: 30%;
+	padding-left: 10px;
+	height: 350px;
+	border: 2px white dashed;
+}
+
+#geocatching2
+{
+	height: 2cm;
+	width: auto;
+	position: absolute;
+	right: 45%;
+	top: 26cm;
+}
+
+#envau1
+{
+	float:  left;
+	height: 4cm;
+	width: 5.5cm;
+	position: absolute;
+    top: 26cm;
+    right: 6cm;
+}
+
+#envau2
+{
+	float:  left;
+	height: 4cm;
+	width: 5.5cm;
+	position: absolute;
+    top: 26cm;
+    right: 0.3cm;
+}
+
+#envau3
+{
+	float:  left;
+	height: 4cm;
+	width: 5.5cm;
+	position: absolute;
+    top: 31cm;
+    right: 3cm;
+}
+
+#parcours3
+{
+	text-align: justify;
+	height: 350px;
+	padding-top: 4%;
+	padding-right: 30%;
+	padding-left: 10px;
+	border: 2px white dashed;
+}
+
+#geocatching3
+{
+	float:  left;
+	height: 2cm;
+	width: auto;
+	position: absolute;
+	right: 45%;
+	top: 37cm;
+}
+
+#luminy1
+{
+	float:  left;
+	height: 4cm;
+	width: 5.5cm;
+	position: absolute;
+    top: 37cm;
+    right: 6cm;
+}
+
+#luminy2
+{
+	float:  left;
+	height: 4cm;
+	width: 5.5cm;
+	position: absolute;
+    top: 37cm;
+    right: 0.3cm;
+}
+
+#luminy3
+{
+	float:  left;
+	height: 4cm;
+	width: 5.5cm;
+	position: absolute;
+    top: 42cm;
+    right: 3cm;
+}
+
+#nav
+{
+	background-color: white;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+
+}
+
+#nav li
+{
+	display: inline;
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+}
+
+
+footer
+{
+	background-color: #e0e0ec;
+	padding: 20px;
+	height: 200px;
+	width: 97%;
+}
+
+#contact{
+	width: 400px;
+	height: 100px;
+	border-right: 2px black solid;
+}
+
+#reseaux
+{
+	background-color: #e0e0ec;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+#reseaux li
+{
+	display: inline;
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+}
+
